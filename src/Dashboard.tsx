@@ -247,15 +247,15 @@ const Dashboard: React.FC<Props> = ({}) => {
       >
         <Form form={form} layout="vertical">
           <Form.Item
-            name="Name"
-            label="Name"
+            name="firstName"
+            label="First Name"
             rules={[{ required: true, message: "Please enter the name" }]}
           >
             <Input />
           </Form.Item>
           <Form.Item
-            name="belong"
-            label="belong"
+            name="Department"
+            label="Department"
             rules={[{ required: true, message: "Please enter the Belongs" }]}
           >
             <Input />
